@@ -58,6 +58,7 @@ export const AnimatedLayout = ({ children }: AnimatedLayoutProps) => {
                     wrapper: "#customW",
                     content: "#customC",
                     smoothTouch: true,
+                    normalizeScroll: true,
                 });
 
                 // MOBILE SETTERS
